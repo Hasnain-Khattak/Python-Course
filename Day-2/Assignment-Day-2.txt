@@ -1,0 +1,38 @@
+1. Variables
+
+•	Task 1: Create a variable name and assign your name to it. Print the variable.
+
+•	Task 2: Create two variables, x = 10 and y = 5. Add them together and print the result.
+
+•	Task 3: Assign the value 50 to a variable age and print it.
+
+
+2. Basic Data Types
+
+•	Task 1 (Integer): Create a variable num1 and assign it the value 7. Print the variable's type using type().
+
+•	Task 2 (Float): Create a variable price and assign the value 19.99. Print the variable and its type.
+
+•	Task 3 (Boolean): Create a variable is_sunny and assign it the value True. Print the variable and its type.
+
+3. Type Casting
+
+•	Task 1: Create a string variable num_str = "10". Convert it to an integer and add 5 to it. Print the result.
+
+•	Task 2: Create a float variable score = 95.6. Convert it to an integer and print the result.
+
+•	Task 3: Convert the boolean value True to an integer and print the result.
+
+
+4. Taking Input from User
+
+•	Task 1: Ask the user to input their name and print a welcome message with their name.
+
+•	Task 2: Ask the user to input a number, double it, and print the result.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Mini Project (4–5 lines): Simple Calculator
+• Ask the user to input two numbers and perform basic arithmetic operations (addition, subtraction, multiplication, and division) on those numbers.
+
+
