@@ -1,0 +1,16 @@
+paragraph = input("Enter a paragraph: ")
+
+# Task 1: Count total characters (excluding spaces)
+char_count = len(paragraph.replace(" ", ""))
+print("Total characters (excluding spaces):", char_count)
+
+# Task 2: Count number of words
+word_count = len(paragraph.split())
+print("Total words:", word_count)
+
+# Task 3: Find the most common letter
+most_common = max(paragraph, key=paragraph.count)
+print("Most common letter:", most_common)
+
+# Task 4: Convert to title case
+print("Title case:", paragraph.title())
