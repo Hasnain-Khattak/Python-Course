@@ -1,3 +1,4 @@
+# -------------- Day 5 Assignment ------------------
 Task 1: Append fruits to a list
 
 fruits = []

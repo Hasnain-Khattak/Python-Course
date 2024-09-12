@@ -1,3 +1,4 @@
+# -------------------------------------------------------------
 paragraph = input("Enter a paragraph: ")
 
 # Task 1: Count total characters (excluding spaces)
