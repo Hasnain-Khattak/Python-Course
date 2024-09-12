@@ -23,14 +23,18 @@
 # y = bool('0')
 # print(x + y)
 
-x = float('10')
-
-print(type(x))
-print(x)
+# x = float('10')
+#
+# print(type(x))
+# print(x)
 
 # y = '9.99999'
 #
 # print(float(y))
 
 
+
+# name = age = 25
+# print(age)
+# print(name)
 

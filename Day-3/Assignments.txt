@@ -1,0 +1,25 @@
+Task 1: Ask the user for a number and calculate the square and cube of the number using the ** operator.
+
+Task 2: Create a program that calculates the remainder when one number is divided by another using the modulo operator (%).
+
+Task 3: Write a Python program that asks the user for their age. Check if the user is older than 18 and print the result as True or False.
+
+Task 4: Ask the user to input two numbers. Check if the first number is greater than, less than, or equal to the second number, and print the results.
+
+Task 5: Write a program that asks for a number and checks if the number is between 10 and 20 (inclusive) using the and operator.
+
+Task 6: Ask the user to input two numbers. Check if at least one of the numbers is greater than 50 using the or operator.
+
+Task 7: Ask the user to enter a boolean value (True/False). Use the not operator to reverse the boolean value and print the result.
+
+Task 8: Create a variable x with an initial value of 10. Then, use assignment operators (+=, -=, *=, /=) to perform the following:
+
+ ( Add 5 to x
+
+ Subtract 3 from x
+
+ Multiply x by 2
+
+ Divide x by 4 ) 
+
+Task 9: Ask the user for a number and double the value using an assignment operator (*=). Print the result.
