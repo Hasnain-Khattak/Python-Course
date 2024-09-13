@@ -1,0 +1,17 @@
+# --------------------------------------
+
+1. Park Ride Example (if else Statement)
+
+2. Bathtub example (if else Statement)
+
+3. Even Odd Example 
+
+4. Park Ride and then check there age and according to the age they will pay for the ticket Example (if else Statement)
+
+5. BMI Calculator with customization
+
+6. In Part 4 example add another code file which will ask the use for photo
+
+7. 
+
+
