@@ -12,6 +12,6 @@
 
 6. In Part 4 example add another code file which will ask the use for photo
 
-7. 
+7. Marks in test
 
-
+8. Weather
