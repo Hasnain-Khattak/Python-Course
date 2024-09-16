@@ -1,0 +1,47 @@
+# ----------------------------------------------Task 1: Check Age # ----------------------------------------------
+
+Ask the user to input their age. If the age is 18 or above, print "You are an adult." Otherwise, print "You are a minor."
+
+
+# ----------------------------------------------Task 2: Even or Odd Number # ----------------------------------------------
+
+Ask the user to input a number and check if it is even or odd.
+
+
+# ----------------------------------------------Task 3: Number Range # ----------------------------------------------
+
+Ask the user to input a number and check whether it is positive, negative, or zero.
+
+
+# ----------------------------------------------Task 4: Compare Two Numbers # ----------------------------------------------
+
+Ask the user to input two numbers. Print which one is larger, or if they are equal.
+
+# ----------------------------------------------Task 5: Check String Length # ----------------------------------------------
+
+Ask the user to input a string and check if its length is greater than, less than, or equal to 5 characters.
+
+# ----------------------------------------------Task 6: Check for a Specific Word # ----------------------------------------------
+
+Ask the user to input a sentence. Check if the word "Python" is in the sentence.
+
+# ----------------------------------------------Task 7: Random Number Check # ----------------------------------------------
+
+Generate a random number between 1 and 100. If the number is greater than 50, print "The number is greater than 50." If it’s equal to 50, print "The number is 50." Otherwise, print "The number is less than 50."
+
+
+# ----------------------------------------------Mini Project: Simple Grade Calculator # ----------------------------------------------
+
+Create a program that calculates a student's grade based on their score. The program should:
+
+Ask the user to input their score (0-100).
+
+Use if, elif, and else to determine and print the grade based on the following criteria:
+
+90-100: Grade A
+80-89: Grade B
+70-79: Grade C
+60-69: Grade D
+Below 60: Grade F
+
+
