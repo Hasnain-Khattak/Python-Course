@@ -1,3 +1,19 @@
 # Tonny IDE
 
+# Leap Year (div 4 Y > div 100 Y Ok < div 400 Y ok)
+
+# Treasure Game
+
+# Carl Gauss 1 - 100
+
 # Average Student Height
+
+# Max Score 
+
+# Adding the numbers using range 
+
+# Adding all the even numbers using range
+
+# Fiz buzz game 3 5 and 3&5
+
+
