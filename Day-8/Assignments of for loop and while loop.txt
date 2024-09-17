@@ -1,0 +1,73 @@
+*************** For Loops Taskas:*********************************************
+
+Task 1: Print each character in a string
+
+Ask the user to input a string, and use a for loop to print each character of the string on a new line.
+
+Task 2: Sum of a list of numbers
+
+Create a list of numbers and use a for loop to calculate the sum of all numbers in the list. Print the result.
+
+Task 3: Count the vowels in a string
+
+Ask the user to input a string. Use a for loop to count how many vowels (a, e, i, o, u) are in the string and print the result.
+
+
+******While Loop Tasks:*****
+
+Task 1: Guess the number
+
+Write a program that generates a random number between 1 and 10. The user should keep guessing the number until they guess it correctly using a while loop.
+
+Task 2: Print numbers from 1 to 5
+
+Use a while loop to print numbers from 1 to 5.
+
+Task 3: Sum of numbers until zero
+
+Write a program that keeps asking the user for a number and adds it to a running total until the user inputs 0, then print the total.
+
+Task 4: Countdown timer
+
+Create a countdown timer using a while loop that starts from 10 and counts down to 1, printing each number.
+
+Task 5: Repeat asking for a valid input
+
+Keep asking the user to enter a number between 1 and 10. If the number is outside this range, ask again until they input a valid number.
+
+**************************************************************************************************************************************************
+
+--------------------------------Mini Project------------------------------------------
+
+
+#### Create a program that:
+
+-Asks the user to input 5 numbers, one by one.
+
+-Stores the numbers in a list.
+
+-Uses a for loop to find the largest number in the list.
+
+-Uses a while loop to calculate the total sum of the numbers.
+
+-Prints the largest number and the total sum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

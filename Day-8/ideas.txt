@@ -1,0 +1,14 @@
+# Password Generator
+
+- Ask numbers 
+- ask charactor 
+- ask symbols
+
+- There are two ways to solve this problem easy and hard
+
+- in sequence
+- mixed 
+
+# While loop
+
+

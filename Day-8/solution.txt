@@ -1,0 +1,129 @@
+For Loop Tasks:
+Task 1: Print each character in a string
+
+user_string = input("Enter a string: ")
+for char in user_string:
+    print(char)
+
+-------------------------------------------------------------------------------
+
+Task 2: Sum of a list of numbers
+
+numbers = [5, 10, 15, 20]
+total = 0
+for num in numbers:
+    total += num
+print("Sum of numbers:", total)
+
+----------------------------------------------------------------------------------
+
+Task 5: Count the vowels in a string
+
+user_string = input("Enter a string: ").lower()
+vowels = "aeiou"
+vowel_count = 0
+for char in user_string:
+    if char in vowels:
+        vowel_count += 1
+print("Number of vowels:", vowel_count)
+
+----------------------------------------------------------------------------------
+
+While Loop Tasks:
+
+Task 1: Guess the number
+
+import random
+number_to_guess = random.randint(1, 10)
+guess = 0
+while guess != number_to_guess:
+    guess = int(input("Guess the number between 1 and 10: "))
+print("You guessed it!")
+
+
+----------------------------------------------------------------------------------
+
+
+Task 2: Print numbers from 1 to 5
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+
+----------------------------------------------------------------------------------
+
+Task 3: Sum of numbers until zero
+
+
+total = 0
+num = int(input("Enter a number (0 to stop): "))
+while num != 0:
+    total += num
+    num = int(input("Enter a number (0 to stop): "))
+print("Total sum:", total)
+
+
+----------------------------------------------------------------------------------
+
+Task 4: Countdown timer
+
+count = 10
+while count > 0:
+    print(count)
+    count -= 1
+print("Time's up!")
+
+
+----------------------------------------------------------------------------------
+
+Task 5: Repeat asking for a valid input
+
+num = int(input("Enter a number between 1 and 10: "))
+while num < 1 or num > 10:
+    num = int(input("Invalid number. Enter a number between 1 and 10: "))
+print("Valid number:", num)
+
+
+----------------------------------------------------------------------------------
+
+Mini Project: Simple Number Analyzer
+
+
+# Step 1: Input 5 numbers and store them in a list
+numbers = []
+for i in range(5):
+    num = int(input(f"Enter number {i+1}: "))
+    numbers.append(num)
+
+# Step 2: Find the largest number using a for loop
+largest_number = numbers[0]
+for num in numbers:
+    if num > largest_number:
+        largest_number = num
+
+# Step 3: Calculate the total sum using a while loop
+total_sum = 0
+index = 0
+while index < len(numbers):
+    total_sum += numbers[index]
+    index += 1
+
+# Step 4: Print the largest number and the total sum
+print("Largest number:", largest_number)
+print("Total sum:", total_sum)
+
+	
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
