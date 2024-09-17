@@ -89,14 +89,21 @@
 
 
 # --------------------------------------------------------------------------
-numer = int(input('Enter any number: '))
 
-# for i in range(0, numer):
+# numer = int(input('Enter any number: '))
+#
+# for i in range(1, numer):
 #
 #     if (i % 3 == 0) and (i % 5 == 0):
 #         print('Fizzbuzz')
+#         continue
 #     elif i % 3 == 0:
 #         print('Fizz')
+#         continue
 #     elif i % 5 == 0:
 #         print('Buzz')
+#         continue
 #     print(i)
+
+
+
