@@ -13,9 +13,10 @@
 #     print('Hi')
 #     i += 1
 
-
-# while True:
+# game_on = False
+# while not game_on:
 #     name = input('Enter Your name: ').capitalize()
+#
 #     print('How are you ? ' + name)
 #     break
 
