@@ -78,10 +78,42 @@
 # name[0] = 'p'
 # print(name)
 
-name = 'Hasnain'
+# name = 'Hasnain'
 
 # print(id(name))
 # print(id(name.replace('H', 'A')))
 
 # print()
+
+# ---------------------------------------------------------------------------
+
+# name = 'Hasnain'
+# print(name.upper())
+# print(name.index('a'))
+# name.replace('Hasnain', 'Ahmad')
+#
+# print(id())
+# print(id(name))
+
+# a = 4
+# b = 8
+# c = a
+# a = b
+# b = c
+
+# students = 'Hasnain Ahmad Ahsan Hamad'
+# student = students.split(' ')
+# print(student)
+
+# student = 'Hasnain'
+# print(student.strip())
+
+# about_school = """
+# My name is {},
+# I live in {}
+# """
+# name = input('Enter Your name: ')
+# location = input('Where do you live?')
+#
+# print(about_school.format(name, location))
 
