@@ -38,7 +38,7 @@ number_to_guess = random.randint(1, 10)
 guess = 0
 while guess != number_to_guess:
     guess = int(input("Guess the number between 1 and 10: "))
-print("You guessed it!")
+print("You guessed it!", guess)
 
 
 ----------------------------------------------------------------------------------
@@ -93,11 +93,12 @@ Mini Project: Simple Number Analyzer
 
 # Step 1: Input 5 numbers and store them in a list
 numbers = []
+
+# Step 2: Find the largest number using a for loop
 for i in range(5):
     num = int(input(f"Enter number {i+1}: "))
     numbers.append(num)
 
-# Step 2: Find the largest number using a for loop
 largest_number = numbers[0]
 for num in numbers:
     if num > largest_number:
