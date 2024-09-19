@@ -1,0 +1,37 @@
+Task 1: Print a Welcome Message
+
+Create a function welcome_message() that prints "Welcome to Python Programming!" when called.
+
+
+Task 2: Calculate and Print the Sum of Two Numbers
+
+Create a function calculate_sum() that adds two predefined numbers (e.g., 5 and 10) and prints the sum.
+
+Task 3: Print the Elements of a List
+
+Create a function print_list() that creates a list of 3 favorite fruits and prints each fruit using a for loop.
+
+Task 4: Print a Random Number
+
+Create a function random_number() that generates a random number between 1 and 100 using the random module and prints it.
+
+Task 5: Check if a Number is Even or Odd
+
+Create a function check_even_odd() that contains a predefined number (e.g., 7) and prints whether the number is even or odd.
+
+Task 6: Greet the User
+
+Create a function greet_user() that asks for the user's name and then prints "Hello, [name]! Welcome!".
+
+
+# -------------------------------------------Mini Project: Simple Calculator
+
+In this mini project, students will create a Simple Calculator using multiple functions, each performing a specific mathematical operation. The calculator will:
+
+Add two predefined numbers.
+
+Subtract two predefined numbers.
+
+Multiply two predefined numbers.
+
+Divide two predefined numbers.

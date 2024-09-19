@@ -1,0 +1,125 @@
+Task 1: Print a Welcome Message
+
+def welcome_message():
+    print("Welcome to Python Programming!")
+
+# Call the function
+welcome_message()
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+Task 2: Calculate and Print the Sum of Two Numbers
+
+def calculate_sum():
+    num1 = 5
+    num2 = 10
+    total = num1 + num2
+    print("The sum is:", total)
+
+# Call the function
+calculate_sum()
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+Task 3: Print the Elements of a List
+
+def print_list():
+    fruits = ["Apple", "Banana", "Mango"]
+    for fruit in fruits:
+        print(fruit)
+
+# Call the function
+print_list()
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+Task 4: Print a Random Number
+
+import random
+
+def random_number():
+    num = random.randint(1, 100)
+    print("Random number:", num)
+
+# Call the function
+random_number()
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+Task 5: Check if a Number is Even or Odd
+
+
+def check_even_odd():
+    num = 7
+    if num % 2 == 0:
+        print(f"{num} is even.")
+    else:
+        print(f"{num} is odd.")
+
+# Call the function
+check_even_odd()
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+Task 6: Greet the User
+
+def greet_user():
+    name = input("Enter your name: ")
+    print(f"Hello, {name}! Welcome!")
+
+# Call the function
+greet_user()
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+
+Mini Project: Simple Calculator
+
+# Step 1: Define the functions for each operation
+
+def add_numbers():
+    num1 = 10
+    num2 = 5
+    result = num1 + num2
+    print(f"Addition: {num1} + {num2} = {result}")
+
+def subtract_numbers():
+    num1 = 10
+    num2 = 5
+    result = num1 - num2
+    print(f"Subtraction: {num1} - {num2} = {result}")
+
+def multiply_numbers():
+    num1 = 10
+    num2 = 5
+    result = num1 * num2
+    print(f"Multiplication: {num1} * {num2} = {result}")
+
+def divide_numbers():
+    num1 = 10
+    num2 = 5
+    result = num1 / num2
+    print(f"Division: {num1} / {num2} = {result}")
+
+# Step 2: Call each function to perform the calculations
+
+add_numbers()
+subtract_numbers()
+multiply_numbers()
+divide_numbers()
+
+
+
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------Task 2: Calculate and Print the Sum of Two Numbers
