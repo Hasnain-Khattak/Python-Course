@@ -1,0 +1,83 @@
+Task 1: Personalized Greeting Function
+
+def greet_user(name):
+    print(f"Hello, {name}! Welcome back.")
+
+# -------------------------------------------------------------------------------------------------------
+
+Task 2: Temperature Conversion
+
+def convert_to_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5/9
+    print(f"{fahrenheit}°F is {celsius:.2f}°C.")
+
+
+# -------------------------------------------------------------------------------------------------------
+
+Task 3: Check Even or Odd
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        print(f"{number} is even.")
+    else:
+        print(f"{number} is odd.")
+
+
+# -------------------------------------------------------------------------------------------------------
+
+Task 4: Display User Information
+
+def user_info(name, age, city):
+    print(f"{name} is {age} years old and lives in {city}.")
+
+
+# -------------------------------------------------------------------------------------------------------
+
+Task 5: Find the Maximum Number
+
+def find_max(num1, num2):
+    if num1 > num2:
+        print(f"The larger number is {num1}.")
+    else:
+        print(f"The larger number is {num2}.")
+
+
+# -------------------------------------------------------------------------------------------------------
+
+Task 6: Multiply List Elements
+
+def multiply_list(numbers, multiplier):
+    for i in range(len(numbers)):
+        numbers[i] *= multiplier
+    print(f"Multiplied list: {numbers}")
+
+
+
+# -------------------------------------------------------------------------------------------------------
+
+Mini Project: Simple Student Grade Calculator
+
+def calculate_grade(student_name, math_score, science_score, english_score):
+    # Step 1: Calculate average score
+    average_score = (math_score + science_score + english_score) / 3
+    
+    # Step 2: Determine the grade
+    if average_score >= 90:
+        grade = "A"
+    elif average_score >= 80:
+        grade = "B"
+    elif average_score >= 70:
+        grade = "C"
+    elif average_score >= 60:
+        grade = "D"
+    else:
+        grade = "F"
+    
+    # Step 3: Print student's details
+    print(f"Student: {student_name}")
+    print(f"Average Score: {average_score:.2f}")
+    print(f"Grade: {grade}")
+
+# Example of usage
+calculate_grade("John", 85, 78, 92)
+

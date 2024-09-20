@@ -1,0 +1,46 @@
+Task 1: Personalized Greeting Function
+
+Create a function greet_user(name) that takes a person's name as a parameter and prints a personalized greeting like, "Hello, [name]! Welcome back."
+
+Task 2: Temperature Conversion
+
+Create a function that takes a temperature in Fahrenheit as a parameter, converts it to Celsius, and prints the result.
+Formula: Celsius = (Fahrenheit - 32) * 5/9
+
+Task 3: Check Even or Odd
+
+Write a function that accepts a number as a parameter. The function should print whether the number is even or odd.
+
+Task 4: Display User Information
+
+Write a function name "user_info" that accepts three parameters (name, age, and city). The function should print a formatted sentence with the information, such as "John is 25 years old and lives in New York."
+
+Task 5: Find the Maximum Number
+
+Create a function 'find_max' that accepts two numbers as arguments and prints the larger of the two numbers.
+
+Task 6: Multiply List Elements
+
+Create a function 'multiply_list' that takes a list of numbers and a multiplier as parameters. Multiply each number in the list by the multiplier and print the modified list.
+
+Task 7: Create a Password Validator
+
+Write a function 'validate_password' that checks if a given password is strong. The password should be at least 8 characters long and contain both letters and numbers. Print if the password is strong or weak.
+
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+Mini Project: Simple Student Grade Calculator
+Create a program that:
+
+Defines a function calculate_grade(student_name, math_score, science_score, english_score) that accepts a student's name and their scores in three subjects (Math, Science, and English).
+Calculates the average score.
+Uses conditional statements to determine the letter grade based on the average:
+Average >= 90: Grade A
+Average >= 80: Grade B
+Average >= 70: Grade C
+Average >= 60: Grade D
+Below 60: Grade F
+Prints the student's name, average score, and their grade.
+
+
