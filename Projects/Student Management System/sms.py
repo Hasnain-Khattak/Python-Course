@@ -46,26 +46,6 @@ def display_all_students():
     else:
         print("No students added yet.")
 
-
-# Step 6: Function to find the top student
-def top_student():
-    if students:
-        top_name = max(students, key=lambda x: students[x]["marks"])
-        print(f"The top student is {top_name} with {students[top_name]['marks']} marks.")
-    else:
-        print("No students available.")
-
-
-# Step 7: Function to calculate average marks
-def average_marks():
-    if students:
-        total_marks = sum(details["marks"] for details in students.values())
-        avg_marks = total_marks / len(students)
-        print(f"Average marks of all students: {avg_marks:.2f}")
-    else:
-        print("No students available to calculate average.")
-
-
 # Step 8: Main menu
 def menu():
     while True:
@@ -74,9 +54,9 @@ def menu():
         print("2. Update student marks")
         print("3. Display a student's details")
         print("4. Display all students")
-        print("5. Find the top student")
-        print("6. Calculate average marks")
-        print("7. Exit")
+        # print("5. Find the top student")
+        # print("6. Calculate average marks")
+        print("5. Exit")
 
         choice = int(input("Enter your choice: "))
 
@@ -89,10 +69,6 @@ def menu():
         elif choice == 4:
             display_all_students()
         elif choice == 5:
-            top_student()
-        elif choice == 6:
-            average_marks()
-        elif choice == 7:
             print("Exiting the system. Goodbye!")
             break
         else:

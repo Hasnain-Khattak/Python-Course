@@ -8,10 +8,6 @@ In this project, students will create a Student Management System where they can
 
 - Display a student's details: Retrieve and display details for a particular student.
 
-- Calculate average marks: Compute the average marks of all students.
-
-- Find the top student: Identify the student with the highest marks.
-
 - Display all students: Print the details of all students in a formatted way.
 ********************************** Requirements:
 
@@ -34,8 +30,6 @@ Create a main menu that allows the user to:
 - Update marks.
 - Display a student's details.
 - Display all students.
-- Find the top student.
-- Calculate the average marks.
 2. Student Details in a Dictionary
 Each student is stored as a dictionary with keys: name, age, and marks.
 
