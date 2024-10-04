@@ -1,0 +1,34 @@
+cities_in_f = {
+	'Lahore': 100,
+	'Dera Ismail Khan': 110,
+	'Karachi': 170
+}
+
+cities_in_c = {key: expression for (key, value) in cities_in_f.items()}
+
+
+
+cities_in_c = {key: ((value-32)*(5/9)) for (key, value) in cities_in_f}
+
+# ---------------------------------------------------------------------------------------------------
+
+weather = {'New York': "snowing", 'Boston': "sunny", 'Los Angeles': "sunny", 'Chicago': "cloudy"}
+
+sunny_weather = {key: value for (key,value) in weather.items() if value == "sunny"}
+print(sunny_weather)
+
+
+# -----------------------------------------------------------------------------------------------------
+
+cities_in_f = {
+	'Lahore': 100,
+	'Dera Ismail Khan': 110,
+	'Karachi': 170
+}
+
+
+desc_weather = {key: (if/else) for (key,value) in weather.items()}
+
+
+
+desc_weather = {key: ('warm' if value >= 40 else "Cold") for (key,value) in weather.items()}

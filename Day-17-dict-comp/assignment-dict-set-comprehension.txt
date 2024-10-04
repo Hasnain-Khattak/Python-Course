@@ -1,0 +1,34 @@
+Task 1: Nested Dictionary Comprehension
+Create a nested dictionary where the keys are numbers from 1 to 5, and the values are dictionaries with keys as "square" and "cube" representing the square and cube of the number.
+
+Task 2: Unique Words in a Sentence
+Ask the user to input two sentences. Create a set comprehension that identifies the unique words that appear in both sentences (ignoring case).
+
+
+Task 3: Dictionary from Multiple Lists
+Given two lists: one with student names and the other with their corresponding scores, create a dictionary using dictionary comprehension where the keys are the names and the values are their scores. If the length of the lists doesn't match, return a message indicating the mismatch.
+
+
+Task 4: Create a Frequency Dictionary
+Ask the user to input a sentence. Create a dictionary comprehension where the keys are characters and the values are the frequency of each character in the sentence (excluding spaces).
+
+
+Task 5: Dictionary of Even Numbers
+Create a dictionary comprehension where the keys are numbers from 1 to 20 and the values are 'Even' if the number is even and 'Odd' if the number is odd. Then filter out only the even numbers.
+
+
+Mini Project: Student Performance Tracker
+Problem Statement:
+Create a program that tracks student performance over two subjects (Math and Science) using dictionary comprehension. The program should:
+
+- Create a dictionary where the keys are student names and the values are dictionaries containing their scores in Math and Science.
+
+- Add a field to each student's dictionary showing their "average score".
+
+- Identify the students who scored an average of 80 or more and create a set comprehension containing their names.
+
+- Filter out students who scored less than 50 in either subject and create a dictionary containing only the passed students.
+
+
+
+
