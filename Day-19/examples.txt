@@ -1,0 +1,33 @@
+# ----------------------------------------------------------------------
+
+Simple Qrcode
+
+import qrcode as qr
+
+img = qr.make('Hello, Members')
+img.save('image.png')
+
+
+# --------------------------------------------------------------------
+
+
+import qrcode
+from PIL import Image
+
+qr = qrcode.QRCode(version = 1,
+                   box_size = 10,
+                   border = 5,
+                   error_correction = qrcode.constants.ERROR_CORRECT_H,
+                   )
+
+data = 'Hello World'
+
+qr.add_data(data=data)
+
+img = qr.make_image(fill_color='red', back_color='orange')
+
+img.save('imgage.png')
+
+
+
+# ---------------------------------------------------------------------------
