@@ -1,0 +1,69 @@
+1. 
+def write_user_data():
+    with open('user_data.txt', 'a') as file:
+        name = input("Enter your name: ")
+        age = input("Enter your age: ")
+        email = input("Enter your email: ")
+        file.write(f"Name: {name}, Age: {age}, Email: {email}\n")
+        print("Data has been saved to user_data.txt.")
+
+write_user_data()
+
+
+2. 
+def count_words_in_file():
+    with open('text.txt', 'r') as file:
+        content = file.read()
+        words = content.split()
+        print(f"Total number of words in the file: {len(words)}")
+
+count_words_in_file()
+
+3.
+from datetime import datetime
+
+def log_event(event):
+    with open('log.txt', 'a') as file:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        file.write(f"{timestamp} - {event}\n")
+        print(f"Event '{event}' has been logged.")
+
+log_event('start')
+log_event('stop')
+log_event('error')
+
+
+4.
+def read_csv_file():
+    with open('data.csv', 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            name, age, email = line.strip().split(',')
+            print(f"Name: {name}, Age: {age}, Email: {email}")
+
+read_csv_file()
+
+
+
+5.
+def add_task():
+    task = input("Enter a task: ")
+    with open('todo.txt', 'a') as file:
+        file.write(task + '\n')
+    print("Task added!")
+
+def show_tasks():
+    with open('todo.txt', 'r') as file:
+        tasks = file.readlines()
+        if tasks:
+            print("Your To-Do List:")
+            for i, task in enumerate(tasks, 1):
+                print(f"{i}. {task.strip()}")
+        else:
+            print("Your to-do list is empty.")
+
+# Adding a task and showing the list
+add_task()
+show_tasks()
+
+

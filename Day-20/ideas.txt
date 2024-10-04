@@ -1,0 +1,28 @@
+- What is File Handling
+
+- open keyword
+
+- close
+
+- With keyword
+
+#------------------------------------------------------------------------------------------------------------------------
+
+Example 1: Writing User Data to a File
+Create a program that asks the user to input their name, age, and email, and then writes this information to a file named user_data.txt. Each new entry should be written on a new line.
+
+
+
+Example 2: Reading and Counting Words in a File
+Create a program that reads the content of a file named text.txt, and counts how many words are in the file. Display the total number of words.
+
+
+Example 3: Logging Events to a File
+Create a program that logs events (e.g., "start", "stop", "error") to a file named log.txt. Every time an event occurs, the event and its timestamp should be written to the file.
+
+
+Example 4: Reading a CSV File
+Create a program that reads a CSV file (e.g., data.csv) containing user information (name, age, email), and prints each line in a formatted way.
+
+Example 5: Writing and Reading a Simple To-Do List
+Create a program that allows the user to add tasks to a to-do list, stores the tasks in a file (todo.txt), and then reads and displays the tasks when requested.
