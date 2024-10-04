@@ -1,0 +1,68 @@
+# Task 1: Create and Modify a Set
+numbers = {1, 2, 3, 4, 5}
+numbers.add(6)  # Adding a new number
+numbers.remove(2)  # Removing an existing number
+print(numbers)
+
+
+# Task 2: Set Operations
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+union_set = set1.union(set2)
+intersection_set = set1.intersection(set2)
+print("Union:", union_set)
+print("Intersection:", intersection_set)
+
+
+# Task 3: Tuples with Different Data Types
+my_tuple = ("Hello", 42, [1, 2, 3])
+print(my_tuple[0])  # String
+print(my_tuple[1])  # Number
+print(my_tuple[2])  # List
+
+
+# Task 4: Check Element in a Set
+words = {"apple", "banana", "cherry"}
+word = input("Enter a word: ").lower()
+
+if word in words:
+    print(f"{word} is in the set.")
+else:
+    print(f"{word} is not in the set.")
+
+
+# Task 5: Tuple Unpacking
+person = ("John", 25, "Engineer")
+name, age, profession = person
+print("Name:", name)
+print("Age:", age)
+print("Profession:", profession)
+
+
+# Mini Project: Grocery Price Calculator
+
+# Set of grocery items
+grocery_items = {"apple", "banana", "orange"}
+
+# Tuple of prices corresponding to the grocery items
+item_prices = (1.0, 0.5, 0.75)
+
+# Function to calculate total price
+def calculate_total(item, quantity):
+    if item == "apple":
+        return item_prices[0] * quantity
+    elif item == "banana":
+        return item_prices[1] * quantity
+    elif item == "orange":
+        return item_prices[2] * quantity
+    else:
+        return 0
+
+# Ask user input
+selected_item = input("Enter the item you want to purchase (apple/banana/orange): ").lower()
+quantity = int(input("Enter the quantity: "))
+
+# Calculate total and print
+total = calculate_total(selected_item, quantity)
+print(f"Total price for {quantity} {selected_item}(s): ${total}")
+
