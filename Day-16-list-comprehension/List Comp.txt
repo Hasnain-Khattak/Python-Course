@@ -1,0 +1,122 @@
+# ----------------------------------------------------------------------------------------------------------------
+
+List Comprehension: A list comprehension creates a new list by applying an expression to each item in an iterable.
+
+# Syntax
+[expression for item in iterable if condition]
+
+# Without list comprehension
+squares = []
+for i in range(1, 6):
+    squares.append(i**2)
+
+# With list comprehension
+squares = [i**2 for i in range(1, 6)]
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+Set Comprehension: Set comprehensions work similarly to list comprehensions but generate a set, which is an unordered collection of unique elements.
+
+
+# Syntax
+
+{expression for item in iterable if condition}
+
+# Without set comprehension
+unique_squares = set()
+for i in range(1, 6):
+    unique_squares.add(i**2)
+
+# With set comprehension
+unique_squares = {i**2 for i in range(1, 6)}
+
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+Dictionary Comprehension: Dictionary comprehensions allow you to create dictionaries by transforming key-value pairs from another iterable.
+
+# Syntax
+
+{key_expression: value_expression for item in iterable if condition}
+
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+
+# Without dictionary comprehension
+squares_dict = {}
+for i in range(1, 6):
+    squares_dict[i] = i**2
+
+# With dictionary comprehension
+squares_dict = {i: i**2 for i in range(1, 6)}
+
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+
+# Without dictionary comprehension
+squares_dict = {}
+for i in range(1, 6):
+    squares_dict[i] = i**2
+
+# With dictionary comprehension
+squares_dict = {i: i**2 for i in range(1, 6)}
+
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# With generator comprehension
+squares_gen = (i**2 for i in range(1, 6))
+
+# You can iterate over the generator
+for square in squares_gen:
+    print(square)
+
+
+
+# -------------------------------------------------------------------------------------------------------------------
+Conciseness: They allow you to write cleaner and shorter code.
+
+Performance: Comprehensions are often faster than traditional loops.
+
+Readability: Though it makes the code shorter, comprehensions can make it easier to understand the transformation you're applying to the data (though overuse can reduce readability).
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+
+# List comprehension with condition
+even_squares = [i**2 for i in range(1, 11) if i % 2 == 0]
+
+# This will output the squares of only the even numbers
+print(even_squares)  # Output: [4, 16, 36, 64, 100]
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------
+
+doubles = [x * 2 for x in range(1, 11)]
+triples = [y * 3 for y in range(1, 11)]
+squares = [z * z for z in range(1, 11)]
+
+fruits = ["apple", "orange", "banana", "coconut"]
+uppercase_words = [fruit.upper() for fruit in fruits]
+fruit_chars = [fruit[0] for fruit in fruits]
+
+numbers = [1, -2, 3, -4, 5, -6, 8, -7]
+positive_numbers = [x for x in numbers if x >= 0]
+negative_numbers = [x for x in numbers if x < 0]
+even_numbers = [x for x in numbers if x % 2 == 0]
+odd_numbers = [x for x in numbers if x % 2 == 1]
+
+grades = [85, 42, 79, 90, 56, 61, 30]
+passing_grades = [grade for grade in grades if grade >= 60]
+
+

@@ -1,0 +1,26 @@
+Task 1: Filter Strings by Length
+Use a list comprehension to create a list of strings from an existing list that have a length greater than 3.
+
+
+
+Task 2: Generate a List of Tuples
+Create a list of tuples where each tuple contains a number and its square for numbers from 1 to 5.
+
+
+Task 3: Create a List of Divisible Numbers
+Use a list comprehension to generate a list of numbers between 1 and 50 that are divisible by both 3 and 5.
+
+
+# Mini Project: Word Frequency Analyzer
+
+Create a program that:
+
+Asks the user to input a sentence.
+
+Uses a list comprehension to create a list of words from the sentence.
+
+Counts the frequency of each word using a dictionary (where keys are words and values are the counts).
+
+Uses a list comprehension to filter out words that appear only once.
+
+Prints the resulting list of words that appear more than once.

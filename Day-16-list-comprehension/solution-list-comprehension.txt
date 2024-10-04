@@ -1,0 +1,35 @@
+# Task 1: Filter strings with length greater than 3
+fruits = ['apple', 'kiwi', 'pear', 'banana', 'fig']
+long_fruits = [fruit for fruit in fruits if len(fruit) > 3]
+print(long_fruits)
+
+
+
+# Task 2: Generate list of tuples (number, number^2)
+tuples_list = [(i, i**2) for i in range(1, 6)]
+print(tuples_list)
+
+
+# Task 3: Numbers divisible by both 3 and 5 between 1 and 50
+divisible_by_3_and_5 = [i for i in range(1, 51) if i % 3 == 0 and i % 5 == 0]
+print(divisible_by_3_and_5)
+
+
+# Mini Project: Word Frequency Analyzer
+
+# Step 1: Ask the user to input a sentence
+sentence = input("Enter a sentence: ")
+
+# Step 2: Create a list of words using list comprehension
+words = sentence.split()
+
+# Step 3: Count the frequency of each word using a dictionary
+word_count = {}
+for word in words:
+    word_count[word] = word_count.get(word, 0) + 1
+
+# Step 4: Filter out words that appear only once using a list comprehension
+frequent_words = [word for word in word_count if word_count[word] > 1]
+
+# Step 5: Print the list of words that appear more than once
+print(frequent_words)

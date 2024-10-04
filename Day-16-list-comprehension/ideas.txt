@@ -1,0 +1,14 @@
+# ************************* Comprehension ******************
+
+- What is Comprehension
+
+- Why we use comprehensions of Different Data Types?
+
+- We can use comprehensions of which Data Types?
+
+- WHat is List Comprehension
+
+- WHat is dictionay Comprehension
+
+- WHat is Tuple Comprehension
+
