@@ -1,0 +1,74 @@
+import time
+
+def display_current_time():
+    current_time = time.strftime("%H:%M:%S")
+    print(f"Current Time: {current_time}")
+
+display_current_time()
+
+# -------------------------------------------------------------------------------------------------------
+
+from datetime import datetime
+
+def days_until_birthday(birth_month, birth_day):
+    today = datetime.now()
+    current_year = today.year
+    next_birthday = datetime(current_year, birth_month, birth_day)
+
+    if next_birthday < today:
+        next_birthday = datetime(current_year + 1, birth_month, birth_day)
+
+    days_left = (next_birthday - today).days
+    print(f"Days until your next birthday: {days_left}")
+
+birth_month = int(input("Enter your birth month (1-12): "))
+birth_day = int(input("Enter your birth day (1-31): "))
+days_until_birthday(birth_month, birth_day)
+
+
+
+# -------------------------------------------------------------------------------------------------------
+
+
+import time
+
+def stopwatch():
+    input("Press Enter to start the stopwatch...")
+    start_time = time.time()
+    input("Press Enter to stop the stopwatch...")
+    end_time = time.time()
+    
+    elapsed_time = end_time - start_time
+    print(f"Elapsed Time: {elapsed_time:.2f} seconds")
+
+stopwatch()
+
+
+
+
+
+
+# -------------------------------------------------------------------------------------------------------
+
+
+from datetime import datetime
+
+def log_events():
+    events = {}
+    for i in range(3):
+        event = input("Enter the event: ")
+        events[event] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    print("Event Log:")
+    for event, timestamp in events.items():
+        print(f"{event}: {timestamp}")
+
+log_events()
+
+
+
+
+
+
+
+# -------------------------------------------------------------------------------------------------------

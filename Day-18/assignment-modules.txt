@@ -1,0 +1,15 @@
+Task 1: Current Time
+Write a function that prints the current time in the format "Hour:Minute".
+
+
+Task 2: Time Until Next Birthday
+Ask the user to input their birthdate (day and month). Use the datetime module to calculate how many days are left until their next birthday.
+
+
+Task 3: Stopwatch
+Create a simple stopwatch program using the time module. The program should allow the user to start the timer, stop it, and print the elapsed time in seconds.
+
+
+Task 4: Generate Timestamps for User Input
+Ask the user to input 3 different events (e.g., "breakfast", "lunch", "dinner"). For each event, use the datetime module to record and print the current date and time at the moment they input each event.
+

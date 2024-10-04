@@ -1,0 +1,12 @@
+- Modules
+
+1. Time
+
+sleep method
+
+reverse function
+
+2. Datetime
+
+3. QRcode
+
