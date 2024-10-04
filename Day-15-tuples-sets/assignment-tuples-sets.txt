@@ -1,0 +1,54 @@
+********************** Task 1: Create and Modify a Set ********************** 
+- Create a set with some numbers.
+
+- Add a new number to the set.
+
+- Remove an existing number from the set.
+
+- Print the modified set.
+
+********************** Task 2: Set Operations ********************** 
+
+- Create two sets with different numbers.
+
+- Find the union and intersection of these sets and print the results.
+
+
+********************** Task 3: Tuples with Different Data Types ********************** 
+
+- Create a tuple containing a string, a number, and a list.
+
+- Print each element of the tuple separately
+
+
+********************** Task 4: Check Element in a Set ********************** 
+
+- Create a set of strings.
+
+- Ask the user to input a string and check if it’s in the set.
+
+
+********************** Task 5: Tuple Unpacking ********************** 
+
+To solve this Project take a look on below link
+https://www.w3schools.com/python/python_tuples_unpack.asp
+
+- Create a tuple with 3 elements.
+
+- Use tuple unpacking to assign each element to a variable and print them.
+
+
+
+********************** Mini Project: Grocery Price Calculator ********************** 
+
+- Create a simple program that:
+
+- Uses a set to store the items in a grocery list.
+
+- Uses a tuple to store the prices of those items.
+
+- Asks the user to input the number of items purchased.
+
+- Returns the total price for the items purchased.
+
+

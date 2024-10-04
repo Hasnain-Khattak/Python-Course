@@ -1,0 +1,35 @@
+- What is Tuples 
+
+- How to create a Tuple
+
+- What is the difference between tuples
+
+- Timeit module
+
+- One word Tuple
+
+- What are use cases of Tuples
+
+- Where we use tuple
+
+- Indexing in Tuples
+
+- Slicing tuples
+
+- How to change Tuple
+
+- Concatenation
+
+- Methods of Tuples
+
+****************************************** SETS **************************************
+
+- What are sets
+
+- How to create sets
+
+- What are the use cases of sets
+
+- Methods of sets
+
+
