@@ -1,0 +1,210 @@
+- Default Arguments
+
+- Positional Error
+
+
+# -------------------------------------------------------------
+
+import time
+
+def count(start=0, end):
+    for x in range(start, end+1):
+        print(x)
+        time.sleep(1)
+    print('Done!')
+
+
+# -------------------------------------------------------------
+def greet(name="Student"):
+    print(f"Hello, {name}!")
+
+greet()          # Output: Hello, Student!
+greet("Alice")   # Output: Hello, Alice!
+
+# -------------------------------------------------------------
+
+def apply_discount(price, discount=10):
+    final_price = price - (price * discount / 100)
+    return final_price
+
+print(apply_discount(100))      # Output: 90.0
+print(apply_discount(100, 20))  # Output: 80.0
+
+# -------------------------------------------------------------
+
+def power(base, exponent=2):
+    return base ** exponent
+
+print(power(3))        # Output: 9 (3^2)
+print(power(2, 3))     # Output: 8 (2^3)
+
+
+
+# -------------------------------------------------------------
+
+def greet_user(name, language="English"):
+    if language == "English":
+        print(f"Hello, {name}!")
+    elif language == "Spanish":
+        print(f"Hola, {name}!")
+    else:
+        print(f"Hi, {name}!")
+
+greet_user("John")              # Output: Hello, John!
+greet_user("Maria", "Spanish")  # Output: Hola, Maria!
+
+
+
+# -------------------------------------------------------------
+
+def register_user(username, role="User"):
+    print(f"Username: {username}, Role: {role}")
+
+register_user("john_doe")         # Output: Username: john_doe, Role: User
+register_user("admin123", "Admin")  # Output: Username: admin123, Role: Admin
+
+
+
+
+# -------------------------------------------------------------
+
+
+- *Args
+
+
+
+# -------------------------------------------------------------
+
+def display_name(*args):
+   print(f"Hello", end=" ")
+   for arg in args:
+       print(arg, end=" ")
+# -------------------------------------------------------------
+
+
+def add(*nums):
+   total = 0
+   for num in nums:
+       total += num
+   return total
+
+print(add(1, 2, 3, 4))
+
+# -------------------------------------------------------------
+
+def sum_numbers(*args):
+    return sum(args)
+
+print(sum_numbers(1, 2, 3))     # Output: 6
+print(sum_numbers(5, 10, 15, 20))  # Output: 50
+
+
+# -------------------------------------------------------------
+
+def print_names(*args):
+    for name in args:
+        print(name)
+
+print_names("Alice", "Bob", "Charlie")   # Output: Alice Bob Charlie
+
+
+# -------------------------------------------------------------
+
+def concatenate_strings(*args):
+    return " ".join(args)
+
+print(concatenate_strings("Python", "is", "awesome"))  # Output: Python is awesome
+
+
+
+
+# -------------------------------------------------------------
+
+def multiply_numbers(*args):
+    result = 1
+    for num in args:
+        result *= num
+    return result
+
+print(multiply_numbers(2, 3, 4))   # Output: 24
+
+
+# -------------------------------------------------------------
+
+
+def find_max(*args):
+    return max(args)
+
+print(find_max(10, 20, 30, 40))  # Output: 40
+# -------------------------------------------------------------
+
+
+- **kwargs
+# -------------------------------------------------------------
+
+def print_user_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_user_info(name="John", age=30, city="New York")  
+# Output: name: John, age: 30, city: New York
+
+
+
+# -------------------------------------------------------------
+Example 2: Profile Creator
+
+def create_profile(**kwargs):
+    profile = f"Profile: {kwargs.get('name')} - {kwargs.get('profession')}"
+    return profile
+
+print(create_profile(name="Alice", profession="Engineer"))  
+# Output: Profile: Alice - Engineer
+
+
+
+# -------------------------------------------------------------
+
+Example 3: Flexible Greeting
+
+def greet_user(**kwargs):
+    if 'name' in kwargs and 'greeting' in kwargs:
+        print(f"{kwargs['greeting']}, {kwargs['name']}!")
+    else:
+        print("Hello!")
+
+greet_user(name="Alice", greeting="Hi")   # Output: Hi, Alice!
+greet_user()                              # Output: Hello!
+
+
+# -------------------------------------------------------------
+
+Example 4: Order Summary
+
+def order_summary(**kwargs):
+    for item, price in kwargs.items():
+        print(f"{item}: ${price}")
+
+order_summary(apple=1.50, banana=0.75, orange=1.20)  
+# Output: apple: $1.50 banana: $0.75 orange: $1.20
+
+
+
+# -------------------------------------------------------------
+
+Example 5: Configurations
+
+def configure_app(**kwargs):
+    for setting, value in kwargs.items():
+        print(f"{setting} is set to {value}")
+
+configure_app(theme="dark", font="Arial", font_size=12)  
+# Output: theme is set to dark, font is set to Arial, font_size is set to 12
+
+
+# -------------------------------------------------------------
+
+
+
+
+

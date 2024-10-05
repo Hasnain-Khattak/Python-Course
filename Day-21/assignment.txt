@@ -1,0 +1,47 @@
+Step 1: Create a Menu System
+Task: Create a function that displays a menu with options:
+Add a new task
+View all tasks
+Update a task
+Remove a task
+Exit
+
+
+Step 2: File Handling (Read and Write Tasks)
+Task: Create functions to handle reading from and writing to the text file where tasks are stored.
+
+
+Step 3: Add a New Task
+Task: Create a function to allow the user to add a new task to the list.
+
+
+Step 4: View All Tasks
+Task: Create a function to display all the tasks.
+
+
+Step 5: Update a Task
+Task: Create a function that allows the user to update an existing task.
+
+
+Step 6: Remove a Task
+Task: Create a function that allows the user to remove a task.
+
+
+Step 7: Bringing It All Together
+Task: Use a while loop to keep the program running until the user chooses to exit. Based on
+
+Explanation:
+
+Menu: Provides a clear interface for the user to choose actions.
+File Handling: Tasks are stored in tasks.txt, and all operations (add, update, remove) are reflected in the file.
+Add/View/Update/Remove: Each function allows students to practice interacting with lists, strings, and file handling.
+Loops & Conditionals: The while loop keeps the program running, and the conditionals direct the user to the correct operation.
+
+
+This project integrates several key concepts:
+
+File Handling
+Lists
+Loops
+Conditionals
+String operations
